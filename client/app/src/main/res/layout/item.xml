@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cart_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="20dp"
+        tools:text="Car part name"
+        />
+
+
+    <TextView
+        android:id="@+id/cart_item_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:padding="5dp"
+        tools:text="Price"
+        />
+
+    <TextView
+        android:id="@+id/cart_item_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:gravity="right"
+        tools:text="Quantity" />
+
+    <Button
+        android:id="@+id/btnItemRemove"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="Remove"
+        android:textColor="@color/colorBackground"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        />
+
+</LinearLayout>

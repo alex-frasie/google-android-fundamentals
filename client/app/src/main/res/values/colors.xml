@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FF9800</color>
+    <color name="colorAccent">#CDDC39</color>
+    <color name="colorBackground">#1A1B16</color>
+
+    <color name="colorSuccess">#66DF6B</color>
+    <color name="colorWarning">#E4C975</color>
+    <color name="colorError">#ECA09A</color>
+    <color name="colorInfo">#96C9F3</color>
+
+    <color name="colorCustomer">#044707</color>
+    <color name="colorAdmin">#4C0B06</color>
+
+    <color name="colorCustomerBackground">#C4EDC6</color>
+    <color name="colorAdminBackground">#E8CFCD</color>
+
+    <color name="colorItemBackground">#302D21</color>
+
+    <color name="colorWhite">#D4DAFF</color>
+</resources>
